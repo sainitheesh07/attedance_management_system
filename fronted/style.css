@@ -1,0 +1,8 @@
+div{
+    text-align: center;
+    background-color: rgb(30, 255, 0);
+}
+.long,.fall{
+    text-align: start;
+    background-color: aqua;
+}
