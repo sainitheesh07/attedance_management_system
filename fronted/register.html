@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div>
-        <h1>REGISTER PAGE</h1>
+    <div class="register-container" >
+        <h1>Register Page</h1>
         <form>
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Enter your name">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="name@example.com">
-            <label for="inputPassword5" class="form-label">Password</label>
-            <input type="password" id="pass" class="form-control" aria-describedby="passwordHelpBlock">
-            <label>Re-enter password</label>
-            <input type="password" id="re"> <br> <br>
+            <label>Name</label>
+            <input type="text" id="name"> <br> <br>
+            <label>Email</label>
+            <input type="email" id="email"> <br> <br>
+            <label>Password</label>
+            <input type="password" id="password"> <br> <br>
+            <label>Reenter Password</label>
+            <input type="password" id="re-password"> <br> <br>
             <button id="reg-button">Register</button>
-            <p>Already have an account <a href="login.html">Click here to login</a></p>
+            <p>Already have an account? <a href="login.html">click here to login</a></p>
         </form>
     </div>
     <script src="register.js"></script>
 </body>
-
 </html>
